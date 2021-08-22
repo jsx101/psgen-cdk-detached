@@ -3,8 +3,6 @@ name: Spring Boot App Test
 on: 
   push:
     branches: [ master ]
-    paths:
-      - src/*
 
 jobs:
   test:
